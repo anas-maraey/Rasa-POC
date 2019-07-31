@@ -1,0 +1,47 @@
+2019-07-18 11:12:42,714 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-07-18 11:12:42,800 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-07-18 11:12:52,578 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-07-18 11:12:52,664 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-07-18 11:13:42,711 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2019-07-18 11:13:42,948 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2019-07-23 12:30:06,261 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\mohamedr6\appdata\local\continuum\anaconda3\envs\python-3.6\lib\asyncio\base_events.py", line 482, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
