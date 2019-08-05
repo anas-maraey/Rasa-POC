@@ -25,6 +25,8 @@ templates:
       payload: Office IT (Incidents and Requests)
     - title: Bitlocker recovery key or PIN
       payload: Bitlocker recovery key or PIN
+    - title: Menna
+      payload: Menna
   utter_goodbye:
   - text: Bye
   utter_greet:
