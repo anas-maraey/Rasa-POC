@@ -33,14 +33,64 @@
 * epic_zero
   - utter_epic_zero
 * epic_name
-  - utter_corresponding_epic
+    - utter_corresponding_epic
 
 ## New Story
 
 * greet
     - utter_greet
 * epic_zero
-    - utter_epic_zero
-* epic_name{"EPICNAME":"Office IT"}
-    - slot{"EPICNAME":"Office IT"}
+  - utter_epic_zero
+* epic_name{"EPICNAME":"Epic_F"}
+    - slot{"EPICNAME":"Epic_F"}
+    - utter_corresponding_epic
+
+## New Story
+
+* greet
+    - utter_greet
+* epic_zero 
+  - utter_epic_zero
+* epic_name{"EPICNAME":"Epic_G"}
+    - slot{"EPICNAME":"Epic_G"}
+    - utter_corresponding_epic
+
+## New Story
+
+* greet
+    - utter_greet
+* epic_zero 
+  - utter_epic_zero
+* epic_name{"EPICNAME":"Epic_E"}
+    - slot{"EPICNAME":"Epic_E"}
+    - utter_corresponding_epic
+
+## New Story
+
+* greet
+    - utter_greet
+* epic_zero 
+  - utter_epic_zero
+* epic_name{"EPICNAME":"Epic_R"}
+    - slot{"EPICNAME":"Epic_R"}
+    - utter_corresponding_epic
+
+## New Story
+
+* greet
+    - utter_greet
+* epic_zero 
+  - utter_epic_zero
+* epic_name{"EPICNAME":"Epic_AR"}
+    - slot{"EPICNAME":"Epic_AR"}
+    - utter_corresponding_epic
+
+## New Story
+
+* greet
+    - utter_greet
+* epic_zero 
+  - utter_epic_zero
+* epic_name{"EPICNAME":"Escalate_me"}
+    - slot{"EPICNAME":"Escalate_me"}
     - utter_corresponding_epic

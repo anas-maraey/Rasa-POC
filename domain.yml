@@ -21,12 +21,20 @@ templates:
   utter_epic_zero:
   - text: Here is a list of things I can help you with. Choose one of the options:"
     buttons:
-    - title: Office IT (Incidents and Requests)
-      payload: Office IT (Incidents and Requests)
-    - title: Bitlocker recovery key or PIN
-      payload: Bitlocker recovery key or PIN
-    - title: Menna
-      payload: Menna
+    - title: Windows password (resetting or unlocking windows account)
+      payload: Epic F
+    - title: Bitlocker recovery key or PIN change
+      payload: Epic G
+    - title: Check ticket status or escalate or reopen
+      payload: Epic E
+    - title: Skype for business – request SIP address creation
+      payload: Epic R
+    - title: Business applications – Request access to an application , webpage or
+        an application are not opening
+      payload: Epic AR
+    - title: Others – include any issues that are not presented at the Guide and will
+        need to escalate to a human agent
+      payload: Escalate me
   utter_goodbye:
   - text: Bye
   utter_greet:
