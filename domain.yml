@@ -38,15 +38,15 @@ templates:
   utter_goodbye:
   - text: Bye
   utter_greet:
-  - text: Hey! How are you?
+  - text: Hey! i am your virtual assistant.
   utter_happy:
   - text: Great carry on!
   utter_corresponding_epic:
   - text: Welcome to {EPICNAME} epic.
   utter_Q1:
   - text: Ask Question1 in {EPICNAME}?
-
 actions:
+- utter_Q1
 - utter_cheer_up
 - utter_corresponding_epic
 - utter_did_that_help
@@ -54,4 +54,3 @@ actions:
 - utter_goodbye
 - utter_greet
 - utter_happy
-- utter_Q1
