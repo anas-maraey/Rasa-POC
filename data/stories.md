@@ -32,65 +32,41 @@
   - utter_greet
 * epic_zero
   - utter_epic_zero
-* epic_name
+
+## EpicF
+
+* epic_name{"EPICNAME":"EpicF"}
+    - slot{"EPICNAME":"EpicF"}
+    - utter_corresponding_epic
+    - utter_Q1
+
+## EpicG
+
+* epic_name{"EPICNAME":"EpicG"}
+    - slot{"EPICNAME":"EpicG"}
     - utter_corresponding_epic
 
-## New Story
+## EpicE
 
-* greet
-    - utter_greet
-* epic_zero
-  - utter_epic_zero
-* epic_name{"EPICNAME":"Epic_F"}
-    - slot{"EPICNAME":"Epic_F"}
+* epic_name{"EPICNAME":"EpicE"}
+    - slot{"EPICNAME":"EpicE"}
     - utter_corresponding_epic
 
-## New Story
+## EpicR
 
-* greet
-    - utter_greet
-* epic_zero 
-  - utter_epic_zero
-* epic_name{"EPICNAME":"Epic_G"}
-    - slot{"EPICNAME":"Epic_G"}
+* epic_name{"EPICNAME":"EpicR"}
+    - slot{"EPICNAME":"EpicR"}
     - utter_corresponding_epic
 
-## New Story
+## EpicAR
 
-* greet
-    - utter_greet
-* epic_zero 
-  - utter_epic_zero
-* epic_name{"EPICNAME":"Epic_E"}
-    - slot{"EPICNAME":"Epic_E"}
+
+* epic_name{"EPICNAME":"EpicAR"}
+    - slot{"EPICNAME":"EpicAR"}
     - utter_corresponding_epic
 
-## New Story
+## Escalateme
 
-* greet
-    - utter_greet
-* epic_zero 
-  - utter_epic_zero
-* epic_name{"EPICNAME":"Epic_R"}
-    - slot{"EPICNAME":"Epic_R"}
-    - utter_corresponding_epic
-
-## New Story
-
-* greet
-    - utter_greet
-* epic_zero 
-  - utter_epic_zero
-* epic_name{"EPICNAME":"Epic_AR"}
-    - slot{"EPICNAME":"Epic_AR"}
-    - utter_corresponding_epic
-
-## New Story
-
-* greet
-    - utter_greet
-* epic_zero 
-  - utter_epic_zero
-* epic_name{"EPICNAME":"Escalate_me"}
-    - slot{"EPICNAME":"Escalate_me"}
+* epic_name{"EPICNAME":"Escalateme"}
+    - slot{"EPICNAME":"Escalateme"}
     - utter_corresponding_epic

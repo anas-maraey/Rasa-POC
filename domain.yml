@@ -22,19 +22,19 @@ templates:
   - text: Here is a list of things I can help you with. Choose one of the options:"
     buttons:
     - title: Windows password (resetting or unlocking windows account)
-      payload: Epic F
+      payload: EpicF
     - title: Bitlocker recovery key or PIN change
-      payload: Epic G
+      payload: EpicG
     - title: Check ticket status or escalate or reopen
-      payload: Epic E
+      payload: EpicE
     - title: Skype for business – request SIP address creation
-      payload: Epic R
+      payload: EpicR
     - title: Business applications – Request access to an application , webpage or
         an application are not opening
-      payload: Epic AR
+      payload: EpicAR
     - title: Others – include any issues that are not presented at the Guide and will
         need to escalate to a human agent
-      payload: Escalate me
+      payload: Escalateme
   utter_goodbye:
   - text: Bye
   utter_greet:
@@ -43,6 +43,9 @@ templates:
   - text: Great carry on!
   utter_corresponding_epic:
   - text: Welcome to {EPICNAME} epic.
+  utter_Q1:
+  - text: Ask Question1 in {EPICNAME}?
+
 actions:
 - utter_cheer_up
 - utter_corresponding_epic
@@ -51,3 +54,4 @@ actions:
 - utter_goodbye
 - utter_greet
 - utter_happy
+- utter_Q1

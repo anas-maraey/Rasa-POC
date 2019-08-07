@@ -15,12 +15,18 @@
 - whats up
 
 ## intent:epic_name
-- [Epic_F](EPICNAME) Windows password (resetting or unlocking windows account)
-- [Epic_G](EPICNAME) Bitlocker recovery key or PIN change
-- [Epic_E](EPICNAME) Check ticket status or escalate or reopen
-- [Epic_R](EPICNAME) Skype for business request SIP address creation 
-- [Epic_AR](EPICNAME) Business applications Request access to an application , webpage or an application are not opening
-- [Escalate_me](EPICNAME) Others include any issues that are not presented at the Guide and will need to escalate to a human agent
+- [EpicF](EPICNAME) 
+- [EpicG](EPICNAME)
+- [EpicE](EPICNAME)
+- [EpicR](EPICNAME)
+- [EpicAR](EPICNAME)
+- [Escalateme](EPICNAME) 
+- Windows password (resetting or unlocking windows account)  - Epic F 
+- Bitlocker recovery key or PIN change – Epic G 
+- Check ticket status or escalate or reopen – Epic E 
+- Skype for business – request SIP address creation – Epic R
+- Business applications – Request access to an application , webpage or an application are not opening  - Epic AR
+- Others – include any issues that are not presented at the Guide and will need to escalate to a human agent Escalateme
 
 ## intent:epic_zero
 - can you list your tasks
